@@ -1,2 +1,248 @@
+@media (max-width: 320px) {
+  .header_navigation {
+    display: none;
+  }
+  .header_logo-name {
+    display: none;
+  }
+  .socials_container {
+    display: none;
+  }
+}
 
+/* Extra Small Devices (Small smartphones) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .header_container {
+    padding: 0 15px;
+  }
+  .header_navigation {
+    display: none;
+  }
+  .socials_container {
+    display: none;
+  }
+  .home_contents {
+    padding: 0 10px;
+  }
+  .home_heading {
+    font-size: 45px;
+  }
+  .home_text {
+    font-size: 20px;
+    margin: 0px 25px 50px 25px;
+  }
+  .btn-projects {
+    font-size: 20px;
+  }
+  .about_intro {
+    margin: 0 50px;
+  }
+  .about_contents-cont {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .about_left-column,
+  .about_right-column {
+    width: fit-content;
+    padding-right: 0;
+  }
+  .projects_intro {
+    margin: 0 50px;
+  }
+  .project_title {
+    font-size: 22px;
+  }
+  .project_description {
+    font-size: 14px;
+  }
+  .btn-case-study {
+    font-size: 11px;
+  }
+  .resume_content {
+    padding: 20px 40px;
+    width: 80%;
+  }
+  .resume_heading {
+    font-size: 30px;
+  }
+  .btn-resume {
+    font-size: 15px;
+    text-wrap: nowrap;
+    padding: 10px 40px;
+  }
+  .form_container {
+    width: 75%;
+    padding: 20px;
+  }
+  .contact_intro {
+    margin: 0 50px;
+  }
+  .btn-submit {
+    padding: 10px 50px;
+  }
+  .footer_container {
+    padding: 30px 15px;
+  }
+  .footer_section {
+    flex: 1 1 calc(80% - 30px);
+  }
+  .footer_section.second {
+    display: none;
+  }
+  .footer_social-icon {
+    height: 20px;
+    width: 20px;
+  }
+  .footer_bottom {
+    width: 75%;
+  }
+}
 
+/* Small Devices (Larger smartphones) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .header_container {
+    padding: 0 25px;
+  }
+  .header_navigation {
+    display: none;
+  }
+  .header_link {
+    padding: 30px 10px;
+  }
+  .socials_container {
+    display: none;
+  }
+  .home_contents {
+    padding: 100px 80px;
+  }
+  .home_heading {
+    font-size: 50px;
+  }
+  .about_intro {
+    margin: 0 50px;
+  }
+  .about_contents-cont {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .about_left-column,
+  .about_right-column {
+    width: fit-content;
+    padding-right: 0;
+  }
+  .projects_intro {
+    margin: 0 50px;
+  }
+  .projects_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .resume_content {
+    padding: 20px 40px;
+    width: 80%;
+  }
+  .resume_heading {
+    font-size: 35px;
+  }
+  .form_container {
+    width: 75%;
+  }
+  .contact_intro {
+    margin: 0 50px;
+  }
+  .footer_section {
+    flex: 1 1 calc(80% - 30px);
+  }
+  .footer_section.second {
+    display: none;
+  }
+}
+
+/* Medium Devices (Tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header_container {
+    padding: 0 25px;
+  }
+  .header_link {
+    padding: 30px 10px;
+  }
+  .header_logo-name {
+    white-space: nowrap;
+  }
+  .hamburger_menu {
+    display: none;
+  }
+  .home_contents {
+    padding: 100px;
+  }
+  .home_heading {
+    font-size: 50px;
+  }
+  .home_text {
+    margin: 0px 40px 50px 40px;
+  }
+  .about_intro {
+    margin: 0px 92px 0px 92px;
+  }
+  .about_contents-cont {
+    width: 85%;
+  }
+  .skills {
+    gap: 2.5px;
+  }
+  .projects_intro {
+    margin: 0px 92px 0px 92px;
+  }
+  .projects_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .btn-case-study {
+    font-size: 11px;
+  }
+  .contact_intro {
+    margin: 0px 92px 0px 92px;
+  }
+  .footer_section {
+    flex: 1 1 calc(50% - 30px);
+  }
+}
+
+/* Large Devices (Laptops) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .hamburger_menu {
+    display: none;
+  }
+  .home_contents {
+    padding: 100px 150px;
+  }
+  .home_text {
+    margin: 0px 40px 50px 40px;
+  }
+  .about_intro {
+    margin: 0px 92px 0px 92px;
+  }
+  .projects_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer_section {
+    flex: 1 1 calc(25% - 30px);
+  }
+}
+
+/* Extra Large Devices (Desktops and Monitors) */
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .home_contents {
+    padding: 100px 150px;
+  }
+  .home_text {
+    margin: 0px 150px 50px 150px;
+  }
+  .hamburger_menu {
+    display: none;
+  }
+}
+
+@media (min-width: 2560px) {
+  .hamburger_menu {
+    display: none;
+  }
+}
